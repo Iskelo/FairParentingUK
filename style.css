@@ -106,8 +106,11 @@ body {
 }
 
 .hero-bg img {
+	height: 350px;
 	filter: brightness(50%);
 	width: 100%;
+	object-fit: cover;
+	object-position: top;
 }
 
 /* END SECTION HERO */
