@@ -1,3 +1,9 @@
+/* FONT */
+@font-face {
+	font-family: Calistoga;
+	src: url('./fonts/Calistoga-Regular.ttf');
+}
+
 /* RESET STYLE */
 
 * {
@@ -65,6 +71,7 @@ main {
 }
 
 .header-descr .logo a {
+	font-family: Calistoga;
 	font-size: 18px;
 	color: #fff;
 	font-weight: 500;
