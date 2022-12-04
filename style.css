@@ -46,11 +46,7 @@ body {
 }
 
 .nav-home {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	z-index: 10;
+	width: 100%;	
 	background-color: #9daaf2;
 	height: 70px;
 }
