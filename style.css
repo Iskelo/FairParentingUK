@@ -86,6 +86,8 @@ body {
 
 /* END HEADER */
 
+
+
 /* SECTION HERO */
 
 .hero {
@@ -109,6 +111,12 @@ body {
 }
 
 /* END SECTION HERO */
+
+.decoration-line {
+	margin-top: -4px;
+	background-color: #ff6a3d;
+	height: 50px;
+}
 
 /* SECTION ABOUT */
 
