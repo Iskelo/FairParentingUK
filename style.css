@@ -106,7 +106,7 @@ body {
 }
 
 .hero-bg img {
-	height: 370px;
+	height: 400px;
 	filter: brightness(50%);
 	width: 100%;
 	object-fit: cover;
