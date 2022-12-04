@@ -1,3 +1,11 @@
+/* FONTS */
+
+@font-face {
+	font-family: Calistoga;
+	src: url('./fonts/Calistoga-Regular.ttf');
+}
+
+
 /* RESET STYLE */
 
 * {
@@ -43,6 +51,8 @@ body {
 	left: 0;
 	width: 100%;
 	z-index: 10;
+	background-color: #9daaf2;
+	height: 70px;
 }
 
 .header {
@@ -54,7 +64,8 @@ body {
 }
 
 .header .logo a {
-	font-size: 18px;
+	font-family: Calistoga;
+	font-size: 24px;
 	color: #fff;
 	font-weight: 500;
 }
@@ -70,7 +81,7 @@ body {
 	color: #fff;
 	text-transform: uppercase;
 	transition: .3s ease all;
-	font-weight: 700;
+	font-weight: 500;
 }
 
 .header ul li a:hover {
@@ -97,7 +108,7 @@ body {
 }
 
 .hero-bg img {
-	filter: brightness(60%);
+	filter: brightness(50%);
 	width: 100%;
 }
 
